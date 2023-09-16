@@ -9,7 +9,7 @@
 
 **Example** of business hours in Doordash
 
-![Doordash](https://github.com/sejalmankar1012/Product_Data_Analyst_Assessment/blob/master/images/doordash.png)
+![Doordash](https://github.com/sejalmankar1012/Product_Data_Analyst_Assessment/blob/master/Images/doordash.png)
 
 **Goal** 
 
