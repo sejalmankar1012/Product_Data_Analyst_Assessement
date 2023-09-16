@@ -9,7 +9,7 @@
 
 **Example** of business hours in Doordash
 
-![Doordash](https://github.com/sejalmankar1012/Product_Data_Analyst_Assessment/Images/doordash.png)
+![Doordash](https://github.com/sejalmankar1012/Product_Data_Analyst_Assessement/blob/main/Images/doordash.png)
 
 **Goal** 
 
@@ -41,7 +41,7 @@ Take the first key value pair in the menu dictionary and the first section and a
 
 Note: daysBitArray starts with Monday and indicates the days of the week for this time window is applicable. The might be more than element in the regularHours array. 
 
-![UberEats](https://github.com/sejalmankar1012/Product_Data_Analyst_Assessment/Images/ueats_mapping.png)
+![UberEats](https://github.com/sejalmankar1012/Product_Data_Analyst_Assessement/blob/main/Images/ueats_mapping.png)
 
 **Grubhub Business Hours** 
 
@@ -52,7 +52,7 @@ Grubhub
 | johnspizz_sicilianpi_gh | SELECT response FROM arboreal-vision-339901.take_home_v2.virtual_kitchen_grubhub_hours LIMIT 1000; |  |
 |  |  |  |
 
-![GrubHub](https://github.com/sejalmankar1012/Product_Data_Analyst_Assessment/Images/ghub_schema.png)
+![GrubHub](https://github.com/sejalmankar1012/Product_Data_Analyst_Assessement/blob/main/Images/ghub_schema.png)
 
 **Output** 
 
@@ -71,12 +71,13 @@ Grubhub
 1. Please use your personal BigQuery, it is free. ( https://cloud.google.com/bigquery/public-data/  ⇒ click on Go to analytics hub , 
 https://cloud.google.com/blog/products/data-analytics/query-without-a-credit-card-introducing-bigquery-sandbox , https://towardsdatascience.com/bigquery-without-a-credit-card-discover-learn-and-share-199e08d4a064 ) 
     
-    ![BigQuery](https://github.com/sejalmankar1012/Product_Data_Analyst_Assessment/Images/bigquery.png)
+    ![BigQuery](https://github.com/sejalmankar1012/Product_Data_Analyst_Assessement/blob/main/Images/bigquery.png)
+
     
-2. You can view the data once you open BigQuery and run from this table. 
-3. Please use json parsing and do not use regex. 
-4. There is a way to write the SQL without brute forcing all day combinations etc, we would strongly prefer that. 
+3. You can view the data once you open BigQuery and run from this table. 
+4. Please use json parsing and do not use regex. 
+5. There is a way to write the SQL without brute forcing all day combinations etc, we would strongly prefer that. 
     1. Some starting point that might help https://stackoverflow.com/questions/34890339/how-to-extract-all-the-keys-in-a-json-object-with-bigquery 
-5. Slug is a unique idenfitier for a store
-6. If there are multiple entries for a store, use the one with the latest timestamp.  
-7. You can use unnest to flatten business hours array in JSON
+6. Slug is a unique idenfitier for a store
+7. If there are multiple entries for a store, use the one with the latest timestamp.  
+8. You can use unnest to flatten business hours array in JSON
